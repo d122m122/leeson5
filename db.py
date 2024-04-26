@@ -27,8 +27,5 @@ cursor.execute("""
 
 data = cursor.fetchall()
 for product in data:
-    product_image = product[0]
-    product_name = product[1]
-    product_price = product[2]
-    product_kredit = product[3]
+    print(product)
 
