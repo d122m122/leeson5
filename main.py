@@ -5,5 +5,4 @@ a = {
     'name':'Ali'
 }
 
-x = git a.popitem()
-print(x)
+
